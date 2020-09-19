@@ -1,0 +1,12 @@
+server:
+  jwt:
+    secret: 1111$1111
+    expiretime: 1
+  port: 9999
+  readtimeout: 60
+  writetimeout: 60
+
+log:
+  path: logs/
+  fileext: log
+  timeformat: 20200102
